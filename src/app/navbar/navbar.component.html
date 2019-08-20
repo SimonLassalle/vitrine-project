@@ -13,16 +13,16 @@
                 <a routerLink="/home" class="nav-link waves-light" mdbWavesEffect>Présentation<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" mdbWavesEffect>Mon CV</a>
+                <a routerLink="/cv" class="nav-link waves-light" mdbWavesEffect>Mon CV</a>
 
             <!-- Dropdown -->
             <li class="nav-item dropdown" dropdown>
                 <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
                 Projets<span class="caret"></span></a>
                 <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Web</a>
-                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Android</a>
-                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Jeux</a>
+                    <a routerLink="/web" class="dropdown-item waves-light" mdbWavesEffect href="#">Web</a>
+                    <a routerLink="/android" class="dropdown-item waves-light" mdbWavesEffect href="#">Android</a>
+                    <a routerLink="/games" class="dropdown-item waves-light" mdbWavesEffect href="#">Jeux</a>
                 </div>
             </li>
 

@@ -2,7 +2,7 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
 
     <!-- Navbar brand -->
-    <mdb-navbar-brand><a class="navbar-brand" href="#">SIMON</a></mdb-navbar-brand>
+    <mdb-navbar-brand><a class="navbar-brand" routerLink="/home">SIMON</a></mdb-navbar-brand>
 
     <!-- Collapsible content -->
     <links>
@@ -17,12 +17,13 @@
 
             <!-- Dropdown -->
             <li class="nav-item dropdown" dropdown>
-                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                
+                <a dropdownToggle routerLink="/projects" mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
                 Projets<span class="caret"></span></a>
                 <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                    <a routerLink="/web" class="dropdown-item waves-light" mdbWavesEffect href="#">Web</a>
-                    <a routerLink="/android" class="dropdown-item waves-light" mdbWavesEffect href="#">Android</a>
-                    <a routerLink="/games" class="dropdown-item waves-light" mdbWavesEffect href="#">Jeux</a>
+                    <a routerLink="/projects/web" class="dropdown-item waves-light" mdbWavesEffect href="#">Web</a>
+                    <a routerLink="/projects/android" class="dropdown-item waves-light" mdbWavesEffect href="#">Android</a>
+                    <a routerLink="/projects/games" class="dropdown-item waves-light" mdbWavesEffect href="#">Jeux</a>
                 </div>
             </li>
 

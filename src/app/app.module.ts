@@ -15,6 +15,8 @@ import { WebComponent } from './projects/web/web.component';
 import { AndroidComponent } from './projects/android/android.component';
 import { GamesComponent } from './projects/games/games.component';
 import { WebVitrineComponent } from './projects/web/web-vitrine/web-vitrine.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { JunglejumpComponent } from './projects/games/junglejump/junglejump.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { WebVitrineComponent } from './projects/web/web-vitrine/web-vitrine.comp
     WebComponent,
     AndroidComponent,
     GamesComponent,
-    WebVitrineComponent
+    WebVitrineComponent,
+    ProjectsComponent,
+    JunglejumpComponent
   ],
   imports: [
     BrowserModule,

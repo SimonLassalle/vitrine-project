@@ -1,46 +1,89 @@
 <div class="container">
 
-<!--Projects section v.2-->
-<section class="section text-center">
+  <!--Projects section v.2-->
+  <section class="section text-center">
 
     <!--Section heading-->
     <h2 class="font-weight-bold h1 py-5">
-      <strong>Tous les projets</strong>
+      <strong>Tous mes projets</strong>
     </h2>
     <!--Section description-->
-    <p class="grey-text pb-5 text-center mx-xl-5 px-xl-5">Depuis le début de ma dernière année à Polyech, je consacre une grande partie de mon temps libre à mes projets personnels. Les domaines sont variés, mais principalement le développement de jeux sur le moteur Unity. En voici la liste...</p>
-  
-    <!--Grid row-->
-    <div class="row d-flex justify-content-center">
-  
-      <!--Grid column-->
-      <div class="col-lg-6 col-xl-5 mb-3">
-  
-        <!--Featured image-->
-        <div class="view overlay rounded z-depth-2  waves-light" mdbWavesEffect>
-          <img src="../../assets/img/projects/junglejump2.png" class="img-fluid" alt="Sample project image">
-          <a>
-            <div class="mask rgba-white-slight"></div>
-          </a>
-        </div>
-  
-        <!--Excerpt-->
-        <mdb-card-body>
-          <a href="" class="green-text">
-            <h5 class="font-weight-bold mt-2 mb-2">
+    <p class="grey-text pb-5 text-justify mx-xl-5 px-xl-5">Depuis le début de ma dernière année à Polyech, je consacre
+      une grande partie de mon temps libre à mes projets personnels. Les domaines sont variés, mais principalement le
+      développement de jeux sur le moteur Unity. En voici la liste...</p>
+
+    <div class="row">
+
+      <!-- premier projet -->
+      <div class="col-md-4">
+        <!-- Card -->
+        <mdb-card>
+          <div class="view rgba-white-slight waves-light" mdbWavesEffect>
+            <!-- Card img -->
+            <mdb-card-img src="../../../assets/img/projects/junglejump2.png" alt="Jungle Jump image">
+            </mdb-card-img>
+            <a routerLink="/projects/games/junglejump">
+              <div class="mask"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <mdb-card-body>
+            <a class="green-text">
+              <h5 class="font-weight-bold mt-2 mb-2">
                 <i class="fas fa-gamepad"></i> Jeu mobile</h5>
-          </a>
-          <h4 class="font-weight-bold mt-2 mb-3">Jungle Jump</h4>
-          <p>Mon premier jeu mobile (Android). Je l'ai réalisé durant un stage dans un studio indépendant.</p>
-          <a mdbBtn color="success" size="md" rounded="true" class="waves-light" mdbWavesEffect> Plus d'info</a>
-        </mdb-card-body>
-  
+            </a>
+            <!--Title-->
+            <mdb-card-title>
+              <h4>Jungle Jump</h4>
+            </mdb-card-title>
+
+            <!--Text-->
+            <mdb-card-text>
+              Dans le cadre d'un stage dans un studio indépendant belge, j'ai développé ce jeu Android...
+            </mdb-card-text>
+
+            <a routerLink="/projects/games/junglejump" mdbBtn color="success" mdbWavesEffect>Plus !</a>
+          </mdb-card-body>
+        </mdb-card>
+        <!-- Card -->
       </div>
-      <!--Grid column-->
-  
+
+      <!-- deuxième projet -->
+      <div class="col-md-4">
+        <!-- Card -->
+        <mdb-card>
+          <div class="view rgba-white-slight waves-light" mdbWavesEffect>
+            <!-- Card img -->
+            <mdb-card-img src="../../../assets/img/projects/web/site-vitrine.jpg" alt="Site vitrine image">
+            </mdb-card-img>
+            <a routerLink="/projects/web/site-vitrine">
+              <div class="mask"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <mdb-card-body>
+            <a class="red-text">
+              <h5 class="font-weight mt-2 mb-2">
+                <mdb-icon fab icon="angular"></mdb-icon> Projet Web
+              </h5>
+            </a>
+            <!--Title-->
+            <mdb-card-title>
+              <h4>Site Vitrine</h4>
+            </mdb-card-title>
+
+            <!--Text-->
+            <mdb-card-text>
+              Pour présenter mes projets publiquement, j'ai décidé de réaliser un site vitrine...
+            </mdb-card-text>
+
+            <a routerLink="/projects/games/junglejump" mdbBtn color="danger" mdbWavesEffect>Plus !</a>
+          </mdb-card-body>
+        </mdb-card>
+        <!-- Card -->
+      </div>
     </div>
-    <!--Grid row-->
-  
+
   </section>
   <!--/Projects section v.2-->
 

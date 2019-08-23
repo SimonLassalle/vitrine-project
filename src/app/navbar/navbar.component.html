@@ -1,8 +1,8 @@
 <!--Navbar-->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark mdb-color darken-2">
 
     <!-- Navbar brand -->
-    <mdb-navbar-brand><a class="navbar-brand" routerLink="/home">SIMON</a></mdb-navbar-brand>
+    <mdb-navbar-brand><a class="navbar-brand" routerLink="/home">Simon LASSALLE</a></mdb-navbar-brand>
 
     <!-- Collapsible content -->
     <links>
@@ -10,20 +10,22 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a routerLink="/home" class="nav-link waves-light" mdbWavesEffect>Présentation<span class="sr-only">(current)</span></a>
+                <a routerLink="/home" class="nav-link waves-light" mdbWavesEffect>Présentation<span
+                        class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a routerLink="/cv" class="nav-link waves-light" mdbWavesEffect>Mon CV</a>
+                <a class="nav-link waves-light" mdbWavesEffect><s>Mon CV</s></a>
 
-            <!-- Dropdown -->
+                <!-- Dropdown -->
             <li class="nav-item dropdown" dropdown>
-                
-                <a dropdownToggle routerLink="/projects" mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-                Projets<span class="caret"></span></a>
+
+                <a dropdownToggle routerLink="/projects" mdbWavesEffect type="button"
+                    class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                    Projets<span class="caret"></span></a>
                 <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                    <a routerLink="/projects/web" class="dropdown-item waves-light" mdbWavesEffect href="#">Web</a>
-                    <a routerLink="/projects/android" class="dropdown-item waves-light" mdbWavesEffect href="#">Android</a>
-                    <a routerLink="/projects/games" class="dropdown-item waves-light" mdbWavesEffect href="#">Jeux</a>
+                    <a routerLink="/projects/web" class="dropdown-item waves-light" mdbWavesEffect>Web</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect><s>Android</s></a>
+                    <a routerLink="/projects/games" class="dropdown-item waves-light" mdbWavesEffect>Jeux</a>
                 </div>
             </li>
 

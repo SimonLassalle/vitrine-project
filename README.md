@@ -1,6 +1,6 @@
-# MdbAngularFree
+# Vitrine Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+This is my website. It is still in progress but I try to put all my projects online soon.
 
 ## Development server
 
